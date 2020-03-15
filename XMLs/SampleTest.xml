@@ -1,0 +1,13 @@
+
+<suite name="Sample Test Suite" parallel="none">
+ <listeners>
+        <listener class-name="Jaswanth.Automation.Utilities.TestListener"/>
+        <listener class-name="Jaswanth.Automation.Utilities.AnnotationTransformer"/>
+    </listeners>
+ <parameter name="Browser" value="chrome"/>
+    <test verbose = "1" name="L" annoatations="JDK">
+        <classes>
+            <class name="Jaswanth.Automation.Script.SampleTest"/>
+        </classes>
+    </test>
+</suite>

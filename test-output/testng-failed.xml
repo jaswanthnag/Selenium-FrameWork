@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sample Test Suite]">
+  <parameter name="Browser" value="chrome"/>
+  <test name="L(failed)">
+    <classes>
+      <class name="Jaswanth.Automation.Script.SampleTest">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- Jaswanth.Automation.Script.SampleTest -->
+    </classes>
+  </test> <!-- L(failed) -->
+</suite> <!-- Failed suite [Sample Test Suite] -->
